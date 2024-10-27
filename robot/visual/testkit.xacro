@@ -4,7 +4,7 @@
         <visual>
             <origin rpy="1.571 0 0" xyz="0.0 0.0 0.0" />
             <geometry>
-                <mesh filename="package://testkit/meshes/Transport_TestKit_Plate.stl" scale="0.001 0.001 0.001"/>
+                <mesh filename="package://testkit/meshes/Transport_TestKit.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </visual>
     </link>
@@ -50,7 +50,7 @@
         <child link="link_1" />
         <limit effort="1000.0" lower="0.0" upper="6.28" velocity="0.5" />
         <axis xyz="0 0 1" />
-        <origin xyz="0 0.07 -0.14" rpy="-1.571 0 0"/>
+        <origin xyz="0.125 -0.09 0.044" rpy="-1.571 0 0"/>
     </joint>
 
     <joint name="link_0_to_link_2" type="continuous">
@@ -58,7 +58,7 @@
         <child link="link_2" />
         <limit effort="1000.0" lower="0.0" upper="6.28" velocity="0.5" />
         <axis xyz="0 0 1" />
-        <origin xyz="0 -0.6 -0.14" rpy="1.571 0 0"/>
+        <origin xyz="0.125 -0.78 0.044" rpy="1.571 0 0"/>
     </joint>
 
     <joint name="link_0_to_link_3" type="continuous">
@@ -66,7 +66,7 @@
         <child link="link_3" />
         <limit effort="1000.0" lower="0.0" upper="6.28" velocity="0.5" />
         <axis xyz="0 0 1" />
-        <origin xyz="0.69 0.07 -0.14" rpy="-1.571 0 0"/>
+        <origin xyz="0.74 -0.09 0.044" rpy="-1.571 0 0"/>
     </joint>
 
     <joint name="link_0_to_link_4" type="continuous">
@@ -74,7 +74,7 @@
         <child link="link_4" />
         <limit effort="1000.0" lower="0.0" upper="6.28" velocity="0.5" />
         <axis xyz="0 0 1" />
-        <origin xyz="0.69 -0.6 -0.14" rpy="1.571 0 0"/>
+        <origin xyz="0.74 -0.78 0.044" rpy="1.571 0 0"/>
     </joint>
 
 
